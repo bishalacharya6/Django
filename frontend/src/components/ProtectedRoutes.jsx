@@ -25,9 +25,7 @@ function ProtectedRoute({ children }) {
         } catch (error) {
             setIsAuthorized(false)
             console.log(error)
-
         }
-
     }
 
     const auth = async () => {
